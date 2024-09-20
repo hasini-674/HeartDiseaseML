@@ -17,17 +17,20 @@ This repository contains the implementation of various machine learning models t
 
 ### 2. Project Structure
 multi-dataset-heart-disease-prediction/
-Heart-Disease-Prediction/
 ├── src/                        
-│   ├── naive_bayes.py            
-│   ├── knn.py                  
-│   ├── decision_tree.py         
-│   ├── svm.py                    
-│   ├── random_forest.py         
-│   ├── xgboost.py                
-│   ├── neural_network.py        
-│   ├── voting_classifier.py      
-│   └── stacking_classifier.py    
+│   ├── cardio_train_models.ipynb            
+│   ├── framimgham_models.ipynb                  
+│   ├── heart_dataset_models.ipynb             
+│   └── models_used/
+│       ├── naive_bayes.py                    
+│       ├── k_nearest_neighbor.py 
+│       ├── decision_tree.py                    
+│       ├── support_vector_machine.py                    
+│       ├── random_forest.py         
+│       ├── xgboost.py                
+│       ├── neural_network.py        
+│       ├── voting_classifier.py  
+│       └── stacking_classifier.py
 ├── models/                      
 │   ├── best_cardio_dataset_model.ipynb    
 │   ├── best_framingham_dataset_model.ipynb      
@@ -52,6 +55,18 @@ The following machine learning models were implemented to predict heart disease:
   6. XGBoost
   7. Neural Network (with multiple epochs)
   8. Voting Classifier (Ensemble)
-  Stacking Classifier (Ensemble)
+  9. Stacking Classifier (Ensemble)
 
 ### 4. Results
+
+  | Dataset                 | Best Model             | Accuracy |
+  |-------------------------|------------------------|----------|
+  | Heart Dataset           | Voting Classifier      | 87%      |
+  | Heart Dataset           | Random Forest          | 86%      |
+  | Framingham Dataset      | Neural Network         | 85%      |
+  | Framingham Dataset      | Support Vector Machine | 84%      |
+  | Cardiovascular Dataset  | XG Boost               | 73%      |
+  | Cardiovascular Dataset  | Neural Network         | 74%      |
+  | Cardiovascular Dataset  | Stacking Classifier    | 73%      |
+
+
