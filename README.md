@@ -6,9 +6,9 @@ This repository contains the implementation of various machine learning models t
 1. Datasets
 2. Project Structure
 3. Models Implemented
-4. Results
-5. 
-6. License
+4. Results 
+5. License
+6. Acknowledgements
 
 ### 1. Datasets
 - Cardiovascular Dataset: Focuses on identifying heart conditions based on cardiovascular health metrics.
@@ -69,4 +69,18 @@ The following machine learning models were implemented to predict heart disease:
   | Cardiovascular Dataset  | Neural Network         | 74%      |
   | Cardiovascular Dataset  | Stacking Classifier    | 73%      |
 
+  After training, the best-performing models for each dataset are:
 
+  - Cardiovascular Dataset: Stacking Classifier with Gradient Boosting and Neural Network as base models.
+  - Framingham Dataset: Neural Network and SVM.
+  - Heart Dataset: Voting Classifier (combining Random Forest, Gradient Boosting, and SVM).
+
+### 5. License
+  This project is licensed under the MIT License.
+
+### 6. Acknowledgements
+We would like to acknowledge the providers of the datasets used in this project:
+  - Kaggle for providing the Heart Disease dataset
+  - Framingham Heart Study for the Framingham dataset
+  - Kaggle for providing Cardiovascular disease dataset
+  - Creators and maintainers of the Cleveland, Hungarian, Switzerland, and Long Beach VA heart disease dataset and all contributors and researchers in the field of heart disease predictio
