@@ -17,35 +17,29 @@ This repository contains the implementation of various machine learning models t
 
 ### 2. Project Structure
 multi-dataset-heart-disease-prediction/
-  │
-  ├── datasets/
-  │   ├── cardio_train.csv
-  │   ├── framingham.csv
-  │   └── heart.csv
-  │
-  ├── src/
-  │   ├── cardio_train_models.ipynb
-  │   ├── framimgham_models.ipynb
-  │   ├── heart_dataset_models.ipynb
-  │   └── models_used/
-  │       ├── naive_bayes.py
-  │       ├── knn.py
-  │       ├── decision_tree.py
-  │       ├── svm.py
-  │       ├── random_forest.py
-  │       ├── xgboost_model.py
-  │       ├── neural_network.py
-  │       ├── voting_classifier.py
-  │       └── stacking_classifier.py
-  │
-  ├── models/
-  │   ├── best_cardio_dataset_model/
-  │   ├── best_framingham_dataset_model/
-  │   └── best_heart_dataset_model/
-  │
-  ├── requirements.txt
-  │
-  └── README.md
+Heart-Disease-Prediction/
+├── src/                        
+│   ├── naive_bayes.py            
+│   ├── knn.py                  
+│   ├── decision_tree.py         
+│   ├── svm.py                    
+│   ├── random_forest.py         
+│   ├── xgboost.py                
+│   ├── neural_network.py        
+│   ├── voting_classifier.py      
+│   └── stacking_classifier.py    
+├── models/                      
+│   ├── best_cardio_dataset_model.ipynb    
+│   ├── best_framingham_dataset_model.ipynb      
+│   └── best_heart_dataset_model.ipynb          
+├── datasets/                     
+│   ├── cardio_train.csv      
+│   ├── heart.csv                 
+│   └── framingham.csv           
+├── README.md                     
+├── requirements.txt              
+└── LICENSE                       
+
 
 ### 3. Models Implemented
 The following machine learning models were implemented to predict heart disease:
